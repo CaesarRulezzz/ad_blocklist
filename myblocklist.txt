@@ -7,3 +7,5 @@ ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:
 ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:pl-4.sm\:p-4.md\:px-0.max-w-full.w-full.\32 xl\:\[max-width\:85rem\].\32 xl\:\[width\:85rem\].xl\:px-6.\32 xl\:px-0:nth-child(2) > div.service.hidden.lg\:block.w-full.lg\:\[width\:290px\].lg\:\[max-width\:312px\].xl\:\[max-width\:340px\].xl\:\[width\:340px\].items-start.relative.mb-4.space-y-6:last-child > div.sidebar-c.sidebar-c-10.bg-white\/50.dark\:bg-gray-800\/50.rounded-xl:nth-child(2)
 |https://yandex.ru^$important,app=ru.yandex.weatherplugin
 |https://yandex.ru^$important,app=ru.yandex.yandexnavi
+mt.today##a.background.mobile:nth-child(6)
+mt.today##main.main:nth-child(8) > section.latest-updates.container:nth-child(2) > div.latest-updates-wrapper > div.latest-news:first-child > div.main-content:first-child > div.mobile-only:last-child > a > img
