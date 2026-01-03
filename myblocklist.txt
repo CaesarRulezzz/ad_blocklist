@@ -6,9 +6,10 @@ ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:
 ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:pl-4.sm\:p-4.md\:px-0.max-w-full.w-full.\32 xl\:\[max-width\:85rem\].\32 xl\:\[width\:85rem\].xl\:px-6.\32 xl\:px-0:nth-child(2) > div.feed.flex.flex-col.flex-1.items-start.gap-4.relative.mb-4.w-full.lg\:\[max-width\:calc\(100\%_-_312px\)\].lg\:\[width\:calc\(100\%_-_312px\)\].\32 xl\:\[max-width\:calc\(85rem_-_360px\)\].\32 xl\:\[width\:calc\(85rem_-_360px\)\]:first-child > div.news.flex.flex-col.w-full.items-start.gap-4.relative.mb-4:nth-child(3) > div.flex.flex-col.items-start.bg-white.lg\:rounded-2xl.lg\:pb-6.gap-y-4.w-full > article.prose.prose-stone.max-w-full.dark\:prose-invert.prose-img\:rounded-2xl.prose-ul\:mx-6.prose-ul\:lg\:mx-12.prose-blockquote\:mx-6.prose-blockquote\:lg\:mx-12.prose-p\:mx-6.prose-p\:lg\:mx-12.prose-headings\:mx-6.prose-headings\:lg\:mx-12:nth-child(4) > div.desktop-c.desktop-c-10:nth-child(2)
 ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:pl-4.sm\:p-4.md\:px-0.max-w-full.w-full.\32 xl\:\[max-width\:85rem\].\32 xl\:\[width\:85rem\].xl\:px-6.\32 xl\:px-0:nth-child(2) > div.service.hidden.lg\:block.w-full.lg\:\[width\:290px\].lg\:\[max-width\:312px\].xl\:\[max-width\:340px\].xl\:\[width\:340px\].items-start.relative.mb-4.space-y-6:last-child > div.sidebar-c.sidebar-c-10.bg-white\/50.dark\:bg-gray-800\/50.rounded-xl:nth-child(2)
 # Yandex ads in apps
-|https://yandex.ru^,app=ru.yandex.weatherplugin
-|https://yandex.ru^,app=ru.yandex.yandexnavi
+|https://yandex.ru^app=ru.yandex.weatherplugin
+|https://yandex.ru^app=ru.yandex.yandexnavi
 @@||static-maps.yandex.ru^$important
+@@||cloud-api.yandex.net^$important
 
 reddit.com###left-sidebar > nav.z-2.box-border.flex.flex-col.mt-0.mb-0.pt-md.shrink-0.s\:shrink.w-full.min-h-screen-without-header.select-none > faceplate-tracker:nth-child(3) > games-section-badge-controller.nd\:visible > faceplate-expandable-section-helper > details.p-0.m-0.bg-transparent.border-none.rounded-none
 sammobile.com###single-article-content > div.block.post-nfy-related:nth-child(10) > div.post-nfy-related-inner
