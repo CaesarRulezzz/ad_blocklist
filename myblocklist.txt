@@ -9,12 +9,6 @@ ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:
 # Yandex ads in apps
 #|https://yandex.ru^$important,app=ru.yandex.weatherplugin
 |https://yandex.ru^$important,app=ru.yandex.yandexnavi
-
-/counters^$domain=~astral.ru|~au.ru|~av.by|~filmweb.pl|~glavagronom.ru|~itpc.ru|~jiten.moe|~letu.ru|~mos.ru|~pay.tns-e.ru|~pikabu.ru|~poro.gg|~traktorist.ua|~work.ua
-|https://api-maps.yandex.ru/v3/counters^$important
-
-! Разрешаем /pogoda/* для Яндекс.Погоды (карта осадков)
-||yandex.ru/pogoda/$app=ru.yandex.weatherplugin
 @@||core-renderer-tiles.maps.yandex.net^$important
 @@||static-maps.yandex.ru^$important
 @@||cloud-api.yandex.net^$important
@@ -22,8 +16,8 @@ ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:
 @@||https://api.weather.yandex.ru/graphql/query&important
 @@||yastatic.net^$important
 @@||api-maps.yandex.$stealth=referrer
-! Блокируем всё остальное yandex.ru для Яндекс.Погоды (реклама)
-||yandex.ru^$app=ru.yandex.weatherplugin,denyallow=/pogoda/
+/counters^$domain=~astral.ru|~au.ru|~av.by|~filmweb.pl|~glavagronom.ru|~itpc.ru|~jiten.moe|~letu.ru|~mos.ru|~pay.tns-e.ru|~pikabu.ru|~poro.gg|~traktorist.ua|~work.ua
+|https://api-maps.yandex.ru/v3/counters^$important
 
 # drive2
 ||drom.ru^$domain=drive2.ru,important
