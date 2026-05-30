@@ -7,8 +7,14 @@ ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:
 ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:pl-4.sm\:p-4.md\:px-0.max-w-full.w-full.\32 xl\:\[max-width\:85rem\].\32 xl\:\[width\:85rem\].xl\:px-6.\32 xl\:px-0:nth-child(2) > div.service.hidden.lg\:block.w-full.lg\:\[width\:290px\].lg\:\[max-width\:312px\].xl\:\[max-width\:340px\].xl\:\[width\:340px\].items-start.relative.mb-4.space-y-6:last-child > div.sidebar-c.sidebar-c-10.bg-white\/50.dark\:bg-gray-800\/50.rounded-xl:nth-child(2)
 
 # Yandex ads in apps
-|https://yandex.ru^$important,app=ru.yandex.weatherplugin
+#|https://yandex.ru^$important,app=ru.yandex.weatherplugin
 |https://yandex.ru^$important,app=ru.yandex.yandexnavi
+
+/counters^$domain=~astral.ru|~au.ru|~av.by|~filmweb.pl|~glavagronom.ru|~itpc.ru|~jiten.moe|~letu.ru|~mos.ru|~pay.tns-e.ru|~pikabu.ru|~poro.gg|~traktorist.ua|~work.ua
+|https://api-maps.yandex.ru/v3/counters^$important
+
+! Разрешаем /pogoda/* для Яндекс.Погоды (карта осадков)
+||yandex.ru/pogoda/$app=ru.yandex.weatherplugin
 @@||core-renderer-tiles.maps.yandex.net^$important
 @@||static-maps.yandex.ru^$important
 @@||cloud-api.yandex.net^$important
@@ -16,8 +22,8 @@ ixbt.games##main.main.block.lg\:flex.lg\:justify-between.mx-auto.gap-4.py-4.sm\:
 @@||https://api.weather.yandex.ru/graphql/query&important
 @@||yastatic.net^$important
 @@||api-maps.yandex.$stealth=referrer
-/counters^$domain=~astral.ru|~au.ru|~av.by|~filmweb.pl|~glavagronom.ru|~itpc.ru|~jiten.moe|~letu.ru|~mos.ru|~pay.tns-e.ru|~pikabu.ru|~poro.gg|~traktorist.ua|~work.ua
-|https://api-maps.yandex.ru/v3/counters^$important
+! Блокируем всё остальное yandex.ru для Яндекс.Погоды (реклама)
+||yandex.ru^$app=ru.yandex.weatherplugin,denyallow=/pogoda/
 
 # drive2
 ||drom.ru^$domain=drive2.ru,important
