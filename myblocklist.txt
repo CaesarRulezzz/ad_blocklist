@@ -30,5 +30,9 @@ reddit.com###left-sidebar > nav.z-2.box-border.flex.flex-col.mt-0.mb-0.pt-md.shr
 sammobile.com###single-article-content > div.block.post-nfy-related:nth-child(10) > div.post-nfy-related-inner
 
 # mt.today ads
-mt.today##a.background.mobile:nth-child(6)
-mt.today##main.main:nth-child(8) > section.latest-updates.container:nth-child(2) > div.latest-updates-wrapper > div.latest-news:first-child > div.main-content:first-child > div.mobile-only:last-child > a > imgS
+mt.today##a.background.large:nth-child(6)
+mt.today##main.main:nth-child(10) > section.latest-updates.container:nth-child(3) > div.latest-updates-wrapper > div.latest-news:first-child > div.main-content:first-child > div.desktop-only:nth-child(10)
+mt.today##header.header:nth-child(9) > div.header-wrapper.container:nth-child(7) > div.logo:nth-child(4) > a:first-child
+mt.today##.background, .large
+mt.today##main.main:nth-child(10) > section.latest-updates.container:nth-child(3) > div.latest-updates-wrapper > div.latest-news:first-child > div.main-content:first-child > div.mobile-only:last-child > a > img
+mt.today##main.main:nth-child(10) > section.latest-updates.container:nth-child(3) > div.latest-updates-wrapper > div.latest-news:first-child > div.main-content:first-child > div.mobile-only:last-child
