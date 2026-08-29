@@ -37,3 +37,6 @@ mt.today##header.header:nth-child(9) > div.header-wrapper.container:nth-child(7)
 mt.today##.background, .large
 mt.today##main.main:nth-child(10) > section.latest-updates.container:nth-child(3) > div.latest-updates-wrapper > div.latest-news:first-child > div.main-content:first-child > div.mobile-only:last-child > a > img
 mt.today##main.main:nth-child(10) > section.latest-updates.container:nth-child(3) > div.latest-updates-wrapper > div.latest-news:first-child > div.main-content:first-child > div.mobile-only:last-child
+
+# ai
+||*^$dnsrewrite=193.233.112.67,app=com.google.android.apps.bard
